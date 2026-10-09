@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://avatars.mds.yandex.net/get-mpic/1707869/2a00000197c32452ef7df03da457b90a0a0b/orig);
+}
+#target {
+    position: absolute;
+    padding: 15px;
+    background-color: cornflowerblue;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+#target:hover {
+    transform: scale(1.1);
+}
+p {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
